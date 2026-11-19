@@ -1,0 +1,432 @@
+{
+  "groups": [
+    {
+      "id": "resolution",
+      "name": "Resolution",
+      "color": "#E8B652",
+      "isExpanded": true
+    },
+    {
+      "id": "video",
+      "name": "Video",
+      "color": "#C078FF",
+      "isExpanded": true
+    },
+    {
+      "id": "audio",
+      "name": "Audio",
+      "color": "#9B7BFF",
+      "isExpanded": true
+    },
+    {
+      "id": "release",
+      "name": "Release",
+      "color": "#4AD8C4",
+      "isExpanded": true
+    },
+    {
+      "id": "codec",
+      "name": "Codec",
+      "color": "#B8C4D4",
+      "isExpanded": true
+    },
+    {
+      "id": "language",
+      "name": "Language",
+      "color": "#F2EDE4",
+      "isExpanded": true
+    },
+    {
+      "id": "provider",
+      "name": "Provider",
+      "color": "#F0A254",
+      "isExpanded": true
+    }
+  ],
+  "filters": [
+    {
+      "id": "atelier-4k",
+      "groupId": "resolution",
+      "name": "4K UHD",
+      "pattern": "(?i)\\b(4k|2160p|uhd|ultra\\s*hd)\\b",
+      "imageURL": "https://showrovbd.github.io/nuvio-atelier/badges/badge-4k.png",
+      "isEnabled": true,
+      "tagColor": "#00000000",
+      "tagStyle": "filled and bordered",
+      "textColor": "#00000000",
+      "borderColor": "#00000000"
+    },
+    {
+      "id": "atelier-1080p",
+      "groupId": "resolution",
+      "name": "1080p FHD",
+      "pattern": "(?i)\\b(1080p|full\\s*hd|fhd)\\b",
+      "imageURL": "https://showrovbd.github.io/nuvio-atelier/badges/badge-1080p.png",
+      "isEnabled": true,
+      "tagColor": "#00000000",
+      "tagStyle": "filled and bordered",
+      "textColor": "#00000000",
+      "borderColor": "#00000000"
+    },
+    {
+      "id": "atelier-720p",
+      "groupId": "resolution",
+      "name": "720p HD",
+      "pattern": "(?i)\\b(720p)\\b",
+      "imageURL": "https://showrovbd.github.io/nuvio-atelier/badges/badge-720p.png",
+      "isEnabled": true,
+      "tagColor": "#00000000",
+      "tagStyle": "filled and bordered",
+      "textColor": "#00000000",
+      "borderColor": "#00000000"
+    },
+    {
+      "id": "atelier-sd",
+      "groupId": "resolution",
+      "name": "SD 480p",
+      "pattern": "(?i)\\b(480p|360p|sd)\\b",
+      "imageURL": "https://showrovbd.github.io/nuvio-atelier/badges/badge-sd.png",
+      "isEnabled": true,
+      "tagColor": "#00000000",
+      "tagStyle": "filled and bordered",
+      "textColor": "#00000000",
+      "borderColor": "#00000000"
+    },
+    {
+      "id": "atelier-dv",
+      "groupId": "video",
+      "name": "Dolby Vision",
+      "pattern": "(?i)\\b(dolby\\s*vision|dovi|dv)\\b",
+      "imageURL": "https://showrovbd.github.io/nuvio-atelier/badges/badge-dv.png",
+      "isEnabled": true,
+      "tagColor": "#00000000",
+      "tagStyle": "filled and bordered",
+      "textColor": "#00000000",
+      "borderColor": "#00000000"
+    },
+    {
+      "id": "atelier-hdr10plus",
+      "groupId": "video",
+      "name": "HDR10+",
+      "pattern": "(?i)\\bhdr10\\+|hdr10\\s*plus\\b",
+      "imageURL": "https://showrovbd.github.io/nuvio-atelier/badges/badge-hdr10plus.png",
+      "isEnabled": true,
+      "tagColor": "#00000000",
+      "tagStyle": "filled and bordered",
+      "textColor": "#00000000",
+      "borderColor": "#00000000"
+    },
+    {
+      "id": "atelier-hdr",
+      "groupId": "video",
+      "name": "HDR",
+      "pattern": "(?i)\\b(hdr10|hdr|hlg)\\b(?!\\+)",
+      "imageURL": "https://showrovbd.github.io/nuvio-atelier/badges/badge-hdr.png",
+      "isEnabled": true,
+      "tagColor": "#00000000",
+      "tagStyle": "filled and bordered",
+      "textColor": "#00000000",
+      "borderColor": "#00000000"
+    },
+    {
+      "id": "atelier-10bit",
+      "groupId": "video",
+      "name": "10-Bit",
+      "pattern": "(?i)\\b(10[\\s._-]?bit)\\b",
+      "imageURL": "https://showrovbd.github.io/nuvio-atelier/badges/badge-10bit.png",
+      "isEnabled": true,
+      "tagColor": "#00000000",
+      "tagStyle": "filled and bordered",
+      "textColor": "#00000000",
+      "borderColor": "#00000000"
+    },
+    {
+      "id": "atelier-atmos",
+      "groupId": "audio",
+      "name": "Dolby Atmos",
+      "pattern": "(?i)\\batmos\\b",
+      "imageURL": "https://showrovbd.github.io/nuvio-atelier/badges/badge-atmos.png",
+      "isEnabled": true,
+      "tagColor": "#00000000",
+      "tagStyle": "filled and bordered",
+      "textColor": "#00000000",
+      "borderColor": "#00000000"
+    },
+    {
+      "id": "atelier-truehd",
+      "groupId": "audio",
+      "name": "TrueHD",
+      "pattern": "(?i)\\btrue[\\s._-]?hd\\b",
+      "imageURL": "https://showrovbd.github.io/nuvio-atelier/badges/badge-truehd.png",
+      "isEnabled": true,
+      "tagColor": "#00000000",
+      "tagStyle": "filled and bordered",
+      "textColor": "#00000000",
+      "borderColor": "#00000000"
+    },
+    {
+      "id": "atelier-dts",
+      "groupId": "audio",
+      "name": "DTS-HD / X",
+      "pattern": "(?i)\\bdts(?:[\\s._-]?(?:x|hd|ma))?\\b",
+      "imageURL": "https://showrovbd.github.io/nuvio-atelier/badges/badge-dts.png",
+      "isEnabled": true,
+      "tagColor": "#00000000",
+      "tagStyle": "filled and bordered",
+      "textColor": "#00000000",
+      "borderColor": "#00000000"
+    },
+    {
+      "id": "atelier-ddp",
+      "groupId": "audio",
+      "name": "Dolby Digital+",
+      "pattern": "(?i)\\b(ddp[\\d.]*|eac3|e-ac-3|dd\\+)",
+      "imageURL": "https://showrovbd.github.io/nuvio-atelier/badges/badge-ddp.png",
+      "isEnabled": true,
+      "tagColor": "#00000000",
+      "tagStyle": "filled and bordered",
+      "textColor": "#00000000",
+      "borderColor": "#00000000"
+    },
+    {
+      "id": "atelier-51",
+      "groupId": "audio",
+      "name": "5.1 Surround",
+      "pattern": "(?i)(?:\\b5\\.1\\b|\\bddp5\\b)",
+      "imageURL": "https://showrovbd.github.io/nuvio-atelier/badges/badge-51.png",
+      "isEnabled": true,
+      "tagColor": "#00000000",
+      "tagStyle": "filled and bordered",
+      "textColor": "#00000000",
+      "borderColor": "#00000000"
+    },
+    {
+      "id": "atelier-71",
+      "groupId": "audio",
+      "name": "7.1 Surround",
+      "pattern": "(?i)(?:\\b7\\.1\\b|\\bddp7\\b)",
+      "imageURL": "https://showrovbd.github.io/nuvio-atelier/badges/badge-71.png",
+      "isEnabled": true,
+      "tagColor": "#00000000",
+      "tagStyle": "filled and bordered",
+      "textColor": "#00000000",
+      "borderColor": "#00000000"
+    },
+    {
+      "id": "atelier-remux",
+      "groupId": "release",
+      "name": "REMUX",
+      "pattern": "(?i)\\bremux\\b",
+      "imageURL": "https://showrovbd.github.io/nuvio-atelier/badges/badge-remux.png",
+      "isEnabled": true,
+      "tagColor": "#00000000",
+      "tagStyle": "filled and bordered",
+      "textColor": "#00000000",
+      "borderColor": "#00000000"
+    },
+    {
+      "id": "atelier-bluray",
+      "groupId": "release",
+      "name": "Blu-ray",
+      "pattern": "(?i)\\b(blu[\\s._-]?ray|bdrip|brrip)\\b",
+      "imageURL": "https://showrovbd.github.io/nuvio-atelier/badges/badge-bluray.png",
+      "isEnabled": true,
+      "tagColor": "#00000000",
+      "tagStyle": "filled and bordered",
+      "textColor": "#00000000",
+      "borderColor": "#00000000"
+    },
+    {
+      "id": "atelier-webdl",
+      "groupId": "release",
+      "name": "WEB-DL",
+      "pattern": "(?i)\\bweb[\\s._-]?dl\\b",
+      "imageURL": "https://showrovbd.github.io/nuvio-atelier/badges/badge-webdl.png",
+      "isEnabled": true,
+      "tagColor": "#00000000",
+      "tagStyle": "filled and bordered",
+      "textColor": "#00000000",
+      "borderColor": "#00000000"
+    },
+    {
+      "id": "atelier-webrip",
+      "groupId": "release",
+      "name": "WEBRip",
+      "pattern": "(?i)\\bweb[\\s._-]?rip\\b",
+      "imageURL": "https://showrovbd.github.io/nuvio-atelier/badges/badge-webrip.png",
+      "isEnabled": true,
+      "tagColor": "#00000000",
+      "tagStyle": "filled and bordered",
+      "textColor": "#00000000",
+      "borderColor": "#00000000"
+    },
+    {
+      "id": "atelier-hls",
+      "groupId": "release",
+      "name": "HLS Stream",
+      "pattern": "(?i)\\bhls\\b",
+      "imageURL": "https://showrovbd.github.io/nuvio-atelier/badges/badge-hls.png",
+      "isEnabled": true,
+      "tagColor": "#00000000",
+      "tagStyle": "filled and bordered",
+      "textColor": "#00000000",
+      "borderColor": "#00000000"
+    },
+    {
+      "id": "atelier-cam",
+      "groupId": "release",
+      "name": "CAM / TS",
+      "pattern": "(?i)\\b(hdcam|camrip|cam|telesync|hdts)\\b",
+      "imageURL": "https://showrovbd.github.io/nuvio-atelier/badges/badge-cam.png",
+      "isEnabled": true,
+      "tagColor": "#00000000",
+      "tagStyle": "filled and bordered",
+      "textColor": "#00000000",
+      "borderColor": "#00000000"
+    },
+    {
+      "id": "atelier-hevc",
+      "groupId": "codec",
+      "name": "HEVC / H.265",
+      "pattern": "(?i)\\b(hevc|h[\\s._-]?265|x265)\\b",
+      "imageURL": "https://showrovbd.github.io/nuvio-atelier/badges/badge-hevc.png",
+      "isEnabled": true,
+      "tagColor": "#00000000",
+      "tagStyle": "filled and bordered",
+      "textColor": "#00000000",
+      "borderColor": "#00000000"
+    },
+    {
+      "id": "atelier-av1",
+      "groupId": "codec",
+      "name": "AV1",
+      "pattern": "(?i)\\bav1\\b",
+      "imageURL": "https://showrovbd.github.io/nuvio-atelier/badges/badge-av1.png",
+      "isEnabled": true,
+      "tagColor": "#00000000",
+      "tagStyle": "filled and bordered",
+      "textColor": "#00000000",
+      "borderColor": "#00000000"
+    },
+    {
+      "id": "atelier-h264",
+      "groupId": "codec",
+      "name": "H.264 / AVC",
+      "pattern": "(?i)\\b(h[\\s._-]?264|x264|avc)\\b",
+      "imageURL": "https://showrovbd.github.io/nuvio-atelier/badges/badge-h264.png",
+      "isEnabled": true,
+      "tagColor": "#00000000",
+      "tagStyle": "filled and bordered",
+      "textColor": "#00000000",
+      "borderColor": "#00000000"
+    },
+    {
+      "id": "atelier-lang-en",
+      "groupId": "language",
+      "name": "English Audio",
+      "pattern": "(?im)^\\s*(?:🎧\\s*)?Audio:[^\\n]*\\b(english|eng)\\b",
+      "imageURL": "https://showrovbd.github.io/nuvio-atelier/badges/badge-lang-en.png",
+      "isEnabled": true,
+      "tagColor": "#00000000",
+      "tagStyle": "filled and bordered",
+      "textColor": "#00000000",
+      "borderColor": "#00000000"
+    },
+    {
+      "id": "atelier-lang-hi",
+      "groupId": "language",
+      "name": "Hindi Audio",
+      "pattern": "(?im)^\\s*(?:🎧\\s*)?Audio:[^\\n]*\\b(hindi|hin)\\b",
+      "imageURL": "https://showrovbd.github.io/nuvio-atelier/badges/badge-lang-hi.png",
+      "isEnabled": true,
+      "tagColor": "#00000000",
+      "tagStyle": "filled and bordered",
+      "textColor": "#00000000",
+      "borderColor": "#00000000"
+    },
+    {
+      "id": "atelier-lang-bn",
+      "groupId": "language",
+      "name": "Bengali Audio",
+      "pattern": "(?im)^\\s*(?:🎧\\s*)?Audio:[^\\n]*\\b(bengali|bangla|ben)\\b",
+      "imageURL": "https://showrovbd.github.io/nuvio-atelier/badges/badge-lang-bn.png",
+      "isEnabled": true,
+      "tagColor": "#00000000",
+      "tagStyle": "filled and bordered",
+      "textColor": "#00000000",
+      "borderColor": "#00000000"
+    },
+    {
+      "id": "atelier-lang-de",
+      "groupId": "language",
+      "name": "German Audio",
+      "pattern": "(?im)^\\s*(?:🎧\\s*)?Audio:[^\\n]*\\b(german|deutsch|ger|deu)\\b",
+      "imageURL": "https://showrovbd.github.io/nuvio-atelier/badges/badge-lang-de.png",
+      "isEnabled": true,
+      "tagColor": "#00000000",
+      "tagStyle": "filled and bordered",
+      "textColor": "#00000000",
+      "borderColor": "#00000000"
+    },
+    {
+      "id": "atelier-lang-ja",
+      "groupId": "language",
+      "name": "Japanese Audio",
+      "pattern": "(?im)^\\s*(?:🎧\\s*)?Audio:[^\\n]*\\b(japanese|jpn)\\b",
+      "imageURL": "https://showrovbd.github.io/nuvio-atelier/badges/badge-lang-ja.png",
+      "isEnabled": true,
+      "tagColor": "#00000000",
+      "tagStyle": "filled and bordered",
+      "textColor": "#00000000",
+      "borderColor": "#00000000"
+    },
+    {
+      "id": "atelier-lang-ko",
+      "groupId": "language",
+      "name": "Korean Audio",
+      "pattern": "(?im)^\\s*(?:🎧\\s*)?Audio:[^\\n]*\\b(korean|kor)\\b",
+      "imageURL": "https://showrovbd.github.io/nuvio-atelier/badges/badge-lang-ko.png",
+      "isEnabled": true,
+      "tagColor": "#00000000",
+      "tagStyle": "filled and bordered",
+      "textColor": "#00000000",
+      "borderColor": "#00000000"
+    },
+    {
+      "id": "atelier-multi",
+      "groupId": "language",
+      "name": "Multi Audio",
+      "pattern": "(?i)\\b(multi[\\s._-]?(audio|lang)|dual[\\s._-]?audio)\\b",
+      "imageURL": "https://showrovbd.github.io/nuvio-atelier/badges/badge-multi.png",
+      "isEnabled": true,
+      "tagColor": "#00000000",
+      "tagStyle": "filled and bordered",
+      "textColor": "#00000000",
+      "borderColor": "#00000000"
+    },
+    {
+      "id": "atelier-pengu",
+      "groupId": "provider",
+      "name": "PenguPlay",
+      "pattern": "(?i)\\bpenguplay\\b",
+      "imageURL": "https://showrovbd.github.io/nuvio-atelier/badges/badge-pengu.png",
+      "isEnabled": true,
+      "tagColor": "#00000000",
+      "tagStyle": "filled and bordered",
+      "textColor": "#00000000",
+      "borderColor": "#00000000"
+    },
+    {
+      "id": "atelier-cnc",
+      "groupId": "provider",
+      "name": "CNCVerse",
+      "pattern": "(?i)\\bcnc[\\s._-]?verse\\b",
+      "imageURL": "https://showrovbd.github.io/nuvio-atelier/badges/badge-cnc.png",
+      "isEnabled": true,
+      "tagColor": "#00000000",
+      "tagStyle": "filled and bordered",
+      "textColor": "#00000000",
+      "borderColor": "#00000000"
+    }
+  ]
+}
