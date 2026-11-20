@@ -1,0 +1,1 @@
+Glass style: Manrope collection artwork, original Elite icons and provider logos, country flags with language codes. Original badge artwork: https://github.com/leonevz/Elite-Badges . The classic Atelier assets remain at the site root.
