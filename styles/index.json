@@ -1,0 +1,35 @@
+{
+  "active_style": "Glass",
+  "previous_style": "Atelier",
+  "styles": [
+    {
+      "id": "glass",
+      "name": "Glass",
+      "badge_url": "https://showrovbd.github.io/nuvio-atelier/styles/glass/badges.json",
+      "gif_base": "https://showrovbd.github.io/nuvio-atelier/styles/glass/gifs/",
+      "cover_base": "https://showrovbd.github.io/nuvio-atelier/styles/glass/heroes/",
+      "poster_route": "/glass/<private-token>/{type}/{id}/{shape}.jpg",
+      "poster_pattern_location": "Saved privately in Termux",
+      "metadata_ids": [
+        "imdb",
+        "tmdb"
+      ]
+    },
+    {
+      "id": "atelier",
+      "name": "Atelier",
+      "badge_url": "https://showrovbd.github.io/nuvio-atelier/badges.json",
+      "gif_base": "https://showrovbd.github.io/nuvio-atelier/gifs/",
+      "cover_base": "https://showrovbd.github.io/nuvio-atelier/heroes/",
+      "poster_route": "Previous private poster route retained",
+      "poster_pattern_location": "Saved privately in Termux",
+      "metadata_ids": [
+        "imdb"
+      ]
+    }
+  ],
+  "native_badge_import_limit": 3,
+  "native_active_poster_patterns": 1,
+  "language_style": "Country flag + audio language code",
+  "switching_guide": "styles/README.md"
+}
